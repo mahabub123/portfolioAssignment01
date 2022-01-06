@@ -27,7 +27,10 @@ h1{
 }
 
 .hero-title{
-    padding-top: 130px;
+    margin-top: 130px;
+    border-left: 4px solid #FF5959;
+    border-radius: 2px;
+    padding-left: 6px;
 }
 .hero-title>.hero-yellow{
     font-size: 60px;
