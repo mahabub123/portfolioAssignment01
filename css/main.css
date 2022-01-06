@@ -101,6 +101,12 @@ h1{
 }
 
 /* skill section */
+.skill-bg{
+    background-image: url('../images/shapes/shape-1.png');
+    background-repeat: no-repeat;
+    background-size:240px 240px;
+    background-position: center left;
+}
 
 .skill-img{
     text-align: left;
@@ -134,15 +140,28 @@ h1{
 }
 
 /* community section */
+.community-bg{
+    background-image: url('../images/shapes/shape-1.png');
+    background-repeat: no-repeat;
+    background-size:240px 240px;
+    background-position: right  bottom;
+}
 
 .community-img{
-    text-align: center;
+    text-align: right;
 }
 .community-wrapper {
     margin: 0;
 }
 
 /* application */
+.application-bg{
+    background-image: url('../images/shapes/shape-3.png'),url('../images/shapes/shape-3.png'),url('../images/shapes/shape-3.png');
+    background-repeat: no-repeat;
+    background-size:230px 230px,120px 120px,100px 100px;
+    background-position: top left,6% 90%,28% 70%;
+}
+
 
 .application-wrapper{
     margin-left: -50px;
@@ -170,6 +189,7 @@ h1{
     width: 100vw;
     /* height: 128px; */
     background: #000;
+    margin-top: 100px;
 }
 .footer-title{
     padding:2rem;
