@@ -155,6 +155,14 @@ h1{
 }
 
 /* application */
+.application-heading {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: 1.7rem 0;
+    font-size: 48px;
+    font-weight: bold;
+}
+
 .application-bg{
     background-image: url('../images/shapes/shape-3.png'),url('../images/shapes/shape-3.png'),url('../images/shapes/shape-3.png');
     background-repeat: no-repeat;
